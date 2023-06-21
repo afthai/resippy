@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Courier New', Courier, serif;
+    margin: 0;
+    background-color: rgb(35, 41, 46);
+    color: white
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+}
+
+.header {
+    padding: 40px 20px 0px;
+    text-align: center;
+}
+
+.main {
+    padding: 10px 40px 10px;
+}
+
+.leftmarg {
+    margin-left: 160px;
+}
+
+.topmarg {
+    margin-top: 50px;
+}
+
+.img {
+    margin: 0px;
+    padding: 20px;
+}
+
+.col {
+    float: left;
+    width: 33%;
+  }
+
+figure {
+    width: 20%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    padding: 0px 15px 10px;
+    margin: 0;
+}
+
+figure, figcaption {
+    display: block;
+}
+
+.leftalign {
+    float: left
+}
+
+.rightalign {
+    float: right
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(18, 22, 24);
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    overflow: hidden;
+}
+
+.stuck {
+    position: fixed;
+}
+
+h2 {
+    clear: both;
+}
+
+h3 {
+    margin: 40px 0px 0px;
+    clear:both;
+}
+
+.clear {
+    clear:both;
+}

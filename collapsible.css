@@ -1,0 +1,30 @@
+.collapseHeader {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+details {
+    user-select: none;
+  }
+  
+  details>summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: 10px;
+  }
+  
+  details[open] summary span.icon {
+    transform: scaleY(-1);
+  }
+
+  summary {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
