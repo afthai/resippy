@@ -20,10 +20,12 @@
 
 a.curr {
     background-color: rgb(56, 70, 81);
+    border-radius: 15px;
 }
 
 .navbar a:hover, .dropdown:hover, .dropbtn  {
     background-color: rgb(56, 70, 81);
+    border-radius: 15px;
 }
 
 .dropdown {
